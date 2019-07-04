@@ -1,13 +1,13 @@
 num=int(input())
-li=input().split(" ")
-final_li=[]
-for i in range(0,len(li)):
-  for j in range(i+1,len(li)):
-    if not(li[j] in final_li):
-      if(li[i]==li[j]):
-        final_li.append(li[j])
-final_li=sorted(final_li)
-if(len(final_li)==0):
+s=input().split(" ")
+final_s=[]
+for i in range(0,len(s)):
+  for j in range(i+1,len(s)):
+    if not(s[j] in final_s):
+      if(s[i]==s[j]):
+        final_s.append(s[j])
+final_s=sorted(final_s)
+if(len(final_s)==0):
   print("unique")
 else:
-  print(" ".join(final_li))
+  print(" ".join(final_s))
