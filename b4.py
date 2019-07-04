@@ -2,4 +2,4 @@ a = str(input())
 if (a >= "a" and a <= "z"):
     print("Alphabet")
 else:
-    print("no")
+    print("No")
