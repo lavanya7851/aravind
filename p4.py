@@ -1,2 +1,2 @@
-ch = int(input())
+ch =str(input())
 print(ch+".")
