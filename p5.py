@@ -1,2 +1,5 @@
-ch = str(input())
-''.join([ s[x:x+2][::-1] for x in range(0, len(s), 2) ])
+v = str(input())
+s = {1:"I",2:"II",3:"III",4:"IV",5:"V",6:"VI",7:"VII",8:"VII",9:"IX",10:"X",11:"XI"}
+for x in s:
+   if s.get(x)==v:
+       print(x)
