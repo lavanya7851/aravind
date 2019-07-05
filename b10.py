@@ -1,2 +1,2 @@
-i=input()
-print(len(i))
+fs=input()
+print(len(fs))
